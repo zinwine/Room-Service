@@ -16,4 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('all_rooms', 'API\RoomController@index');
+Route::get('dashboard', 'AdminController@dashboard');
+Route::get('room/add_room', 'RoomController@create');
 
